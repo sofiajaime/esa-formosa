@@ -1,0 +1,80 @@
+---
+title: "R Markdown modelo"
+author: "Curso ESA"
+date: "8/13/2021"
+output: pdf_document
+---
+## R markdown
+
+La manera más sencilla de interactuar con R es a través de documentos conocidos como documentos de **R Markdown**, que ya hemos visto a modo de ejemplo en la sección anterior. Estos documentos son una combinación de varios tipos de información. Por un lado, lo que se conoce como “fragmentos de código” (code chunks), que son un tipo de ventanas en R donde se escribe código para ejecutar análisis. También, fuera de esos fragmentos de código podemos escribir texto. En esta sección se explicará con mayor detalle cómo formatear el texto en el documento de R. Para ello, debemos seguir los pasos:
+
+- Abrir el primer proyecto de R Studio, el cual estará alojado en el directorio de nuestro equipo local llamado "proyectos_r" o similar.
+- Dentro de esa carpeta, seleccionar el documento llamado "primer_proyecto.Rproj".
+- Otras carpetas que encontramos allí son: "datos" e "imagenes".
+- Descargar una foto de Internet o seleccionar una foto antigua que se encuentre en la computadora y guardarla en nuestra carpeta de "imagenes"
+- Crear un nuevo documento clicando en la barra superior de RStudio llamada "documentos", y luego en R Markdown. Otra opción es clicar sobre el ícono de una hoja blanca con un círculo verde en la esquina superior izquierda de la barra de herramientas de R Studio. Aparecerá una ventana, rellenamos con el título y el autor. Luego, guardarlo con un nombre al archivo y almacenarlo en la carpeta del proyecto, en "documentos_r".
+- Nuestro documento posee un template, clicar sobre el botón "Knit", acompañado de un ícono de un ovillo de lana y unas agujas de tejer (barra superior izquierda). Se obtendrá un archivo de tipo HTML con el título, la fecha y el autor, que podemos eliminar en caso de ser necesario.
+
+## Agregar texto
+
+La cantidad de símbolos de numeral (#) indica el nivel del título o subtítulo que se desea editar. Es necesario dejar un espacio entre el numeral y el texto que escribamos para obtener los títulos en negrita y sin el símbolo. Se debe utilizar el primer nivel de títulos en cada documento R Markdown. Probamos los niveles diferentes en un documento de R Markdown de la siguiente manera:
+
+```{r eval=FALSE}
+ # Título nivel 1
+ ## Título nivel 2
+ ### Título nivel 3
+ #### Título nivel 4
+```
+
+**Recordatorio** clicar control + S constantemente para guardar los cambios efectuados en el documento, a medida que se trabaja sobre él.
+
+## Listas
+
+* Se utiliza el símbolo del asterisco para realizar bullet-points (* Bullet)
+* Para un sub-bullet se usa el signo sumatorio (+ Sub-bullet)
+* Para un tercer nivel de sub-bullet, el signo de restas (- Tercer nivel de bullets)
+* Es importante, además de los símbolos, indentar las líneas cada vez que reduzca mi número de bullets en una lista. Espaciar entre el símbolo y el contenido de la lista. Además hay que dejar un espacio una vez finalizada la lista y antes de comenzar otra nueva.
+* Se puede hacer una prueba creando una lista sobre "Materias que no me gustan de mi carrera". Para presentar nuestra lista, se debe agregar una línea de texto común, con su descripción. 
+* Luego, clicar en "Knit" para generar el documento.
+
+## Editar texto
+
+* Para incluir algún formato de texto, se deben utilizar los siguientes símbolos al inicio y al final de cada palabra o grupo de palabras que se desea editar:
+
+```{r eval=FALSE}
+*Itálicas*
+	
+**Resaltado**
+	
+Texto ^superscript^
+	
+Texto ~subscript~
+
+```
+## Insertar imágenes
+
+* Las imágenes son fáciles de agregar, siguiendo las líneas de código siguiente:
+
+```{r eval=FALSE}
+![Caption for image](filepath_for_image)
+
+![Figura 1: Mi perra hermosa: Nina]
+(../materiales/imagenes/nina.png)
+```
+
+* Se puede hacer una prueba agregando una foto que nos guste.
+* Se puede colocar el epígrafe de la foto del siguiente modo:
+
+```{r eval=FALSE}
+![Nina](imagenes/nina.png){width=50%}
+```
+
+* También es posible seleccionar el tamaño de la imagen.
+
+## Enlaces
+
+* Para incluir un enlace se debe:
+
+```{r eval=FALSE}
+Incluir entre corchetes [lo que aparecerá] en el texto y, seguido, entre paréntesis (el enlace que redirige al sitio que se seleccione)
+```
