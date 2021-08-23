@@ -34,12 +34,42 @@ Las clases constan de ejercicios prácticos y un seguimiento por parte de los pr
 Programa
 ========================================================
 
+Unidad 0. Introducción básica a R y RStudio.
+
+Unidad 1. La estructura social en la Argentina actual.
+
+Unidad 2. Fuentes de datos secundarias para el estudio de la estructura de clases I.
+
+Unidad 3. Fuentes de datos secundarias para el estudio de la estructura de clases II.
+
+Unidad 4. Las características económicas de la población.
+
+Unidad 5. Los Nomencladores de clases sociales.
+
+Unidad 6. Estructura de clases como variable independiente.
+
+Unidad 7.  Estructura de clases como variable dependiente.
+
+Unidad 8. Diferenciales en la estructura de clases.
+
 Cronograma
 ========================================================
 
 Fechas importantes:
 
-Encuentros sincrónicos
+Fechas encuentros sincrónicos:
+
+Unidad 0 y 1: Jueves 26/8 de 17 a 18:30hs
+
+Unidad 2 y 3: Martes 31/8 de 17 a 18:30hs
+
+Unidad 4 y 5: Jueves 2/9 de 17 a 18:30hs
+
+Unidad 6 y 7: Martes 7/9 de 17 a 18:30hs
+
+Unidad 8: Jueves 9/9 17 a 18:30hs
+
+Enlace para clases sincrónicas: a confirmar.
 
 Introducción a R
 ========================================================
