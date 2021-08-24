@@ -36,23 +36,23 @@ Las clases constan de ejercicios prácticos y un seguimiento por parte de los pr
 Programa
 ========================================================
 
-0. Introducción básica a R y RStudio.
+1. Introducción básica a R y RStudio.
 
-1. La estructura social en la Argentina actual.
+2. La estructura social en la Argentina actual.
 
-2. Fuentes de datos secundarias para el estudio de la estructura de clases I.
+3. Fuentes de datos secundarias para el estudio de la estructura de clases I.
 
-3. Fuentes de datos secundarias para el estudio de la estructura de clases II.
+4. Fuentes de datos secundarias para el estudio de la estructura de clases II.
 
-4. Las características económicas de la población.
+5. Las características económicas de la población.
 
-5. Los Nomencladores de clases sociales.
+6. Los Nomencladores de clases sociales.
 
-6. Estructura de clases como variable independiente.
+7. Estructura de clases como variable independiente.
 
-7. Estructura de clases como variable dependiente.
+8. Estructura de clases como variable dependiente.
 
-8. Diferenciales en la estructura de clases.
+9. Diferenciales en la estructura de clases.
 
 Cronograma
 ========================================================
