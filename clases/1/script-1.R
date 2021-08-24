@@ -182,7 +182,7 @@ x <- matrix(c(2, 3, 5, 7, 11, 13), nrow = 3)
 x
 
 y <- matrix(c(2, 3, 5, 7, 11, 13), ncol = 2)
-x
+y
 
 z <- matrix(1:16, ncol = 4)
 z

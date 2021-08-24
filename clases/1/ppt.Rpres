@@ -11,70 +11,71 @@ En esta clase se realiza un recorrido por los siguientes contenidos:
 - Las pautas organizativas del curso
 - La dinámica de las clases
 - La presentación del programa y cronograma
-- Una introducción a R
-- Una introducción a R Studio
+- Una introducción a **`R`**
+- Una introducción a `RStudio`
 - Una descripción y propuesta sobre el flujo de trabajo
-- Código y funciones elementales de R
+- Código y funciones elementales de **`R`**
 
 Pautas organizativas
 ========================================================
-El Curso ESA es una combinación de encuentros asincrónicos y encuentros asincrónicos
+El taller es una combinación de encuentros sincrónicos y lecturas y ejercitación asincrónica
 
 La evaluación depende de:
-- la asistencia del estudiante a los encuentros sincrónicos
+
+- La asistencia del estudiante a los encuentros sincrónicos
 
 Dinámica de las clases
 ========================================================
 Las clases constan de ejercicios prácticos y un seguimiento por parte de los profesores. Se recomienda:
-- abrir R Studio Cloud previo al comienzo de la clase
-- utilizar Zoom en su forma minimizada para ver las diapositivas mientras se utiliza R
-- alternativa: dividir la pantalla en dos: a la izquierda R y a la derecha Zoom
+
+- abrir `RStudio Cloud` previo al comienzo de la clase
+- utilizar Zoom en su forma minimizada para ver las diapositivas mientras se utiliza **`R`**
+- alternativa: dividir la pantalla en dos: a la izquierda **`R`** y a la derecha Zoom
 - las preguntas se realizan una vez finalizada la introducción con diapositivas
 
 Programa
 ========================================================
 
-Unidad 0. Introducción básica a R y RStudio.
+0. Introducción básica a R y RStudio.
 
-Unidad 1. La estructura social en la Argentina actual.
+1. La estructura social en la Argentina actual.
 
-Unidad 2. Fuentes de datos secundarias para el estudio de la estructura de clases I.
+2. Fuentes de datos secundarias para el estudio de la estructura de clases I.
 
-Unidad 3. Fuentes de datos secundarias para el estudio de la estructura de clases II.
+3. Fuentes de datos secundarias para el estudio de la estructura de clases II.
 
-Unidad 4. Las características económicas de la población.
+4. Las características económicas de la población.
 
-Unidad 5. Los Nomencladores de clases sociales.
+5. Los Nomencladores de clases sociales.
 
-Unidad 6. Estructura de clases como variable independiente.
+6. Estructura de clases como variable independiente.
 
-Unidad 7.  Estructura de clases como variable dependiente.
+7. Estructura de clases como variable dependiente.
 
-Unidad 8. Diferenciales en la estructura de clases.
+8. Diferenciales en la estructura de clases.
 
 Cronograma
 ========================================================
 
-Fechas importantes:
-
 Fechas encuentros sincrónicos:
 
-Unidad 0 y 1: Jueves 26/8 de 17 a 18:30hs
+- Unidad 0 y 1: Jueves 26/8 de 17 a 18:30hs
 
-Unidad 2 y 3: Martes 31/8 de 17 a 18:30hs
+- Unidad 2 y 3: Martes 31/8 de 17 a 18:30hs
 
-Unidad 4 y 5: Jueves 2/9 de 17 a 18:30hs
+- Unidad 4 y 5: Jueves 2/9 de 17 a 18:30hs
 
-Unidad 6 y 7: Martes 7/9 de 17 a 18:30hs
+- Unidad 6 y 7: Martes 7/9 de 17 a 18:30hs
 
-Unidad 8: Jueves 9/9 17 a 18:30hs
+- Unidad 8: Jueves 9/9 17 a 18:30hs
 
 Enlace para clases sincrónicas: a confirmar.
 
 Introducción a R
 ========================================================
 
-R es un conjunto integrado de programas para trabajar con datos, cálculos y gráficos, que permite:
+**`R`** es un conjunto integrado de programas para trabajar con datos, cálculos y gráficos, que permite:
+
 - almacenar y manipular datos,
 - operar cálculos sobre variables indexadas (como las matrices),
 - analizar datos con una colección de herramientas,
@@ -84,45 +85,46 @@ R es un conjunto integrado de programas para trabajar con datos, cálculos y gr�
 El entorno de R
 ========================================================
 
-- R = entorno: sistema diseñado para el análisis de datos, con coherencia interna que es más que el agregado de cada una de sus partes
+- **`R`** = entorno: sistema diseñado para el análisis de datos, con coherencia interna que es más que el agregado de cada una de sus partes
 
-- R permite desplegar técnicas estadísticas a través de métodos interactivos para analizar datos, que traen innovaciones tecnologías
+- **`R`** permite desplegar técnicas estadísticas a través de métodos interactivos para analizar datos, que traen innovaciones tecnologías
 
-- Descargar R: ingresar a <https://cran.r-project.org/>, seleccionar el sistema operativo de tu computadora y comenzar la instalación
+- Descargar **`R`**: ingresar a <https://cran.r-project.org/>, seleccionar el sistema operativo de tu computadora y comenzar la instalación
 
-R Studio
+RStudio
 ========================================================
-- Es la "interfaz gráfica", que hace más atractiva y fácil la aproximación al programa R
+- Es la "interfaz gráfica" que hace más atractiva y fácil la aproximación al programa **`R`**
 - Descargar e instalar ingresando a: <https://www.rstudio.com/products/rstudio/download/>
 
-En este curso se implementa R Studio Cloud, que:
-- integra R y R Studio
+En este curso se implementa RStudio Cloud, que:
+- integra R y `RStudio`
 - permite trabajar en la "nube"
 - permite programar y realizar visualización y análisis de datos, igual que su versión de escritorio
 
 Las partes de RStudio
 ========================================================
-Las secciones que conforman RStudio son cuatro:
+Las secciones que conforman `RStudio` son cuatro:
 
 - la fuente (en la parte superior izquierda),
 - el entorno (parte superior derecha),
 - la consola (parte inferior izquierda) y
 - la sección de "documentos, gráficos, paquetes y ayuda" (parte inferior derecha).
 
-Conociendo R Studio
+Conociendo RStudio
 ========================================================
-Se utilizará un "script" para demostrar el funcionamiento de R y R Studio. Los estudiantes pueden ejecutar los comandos en R Studio Cloud. Se estudiarán:
+Se utilizará un "script" para demostrar el funcionamiento de **`R`** y `RStudio`. Los estudiantes pueden ejecutar los comandos en R Studio Cloud. Se estudiarán:
 
-- Las partes de R Studio (menú, botones, paneles)
-- Crear un nuevo archivo
-- Configuración de R Studio
+- Las partes de `RStudio` (menú, botones, paneles)
+- Crear un nuevo `RStudio`
+- Configuración de `RStudio`
+
 
 El flujo de trabajo
 ========================================================
 
-Es el proceso que sistematiza el trabajo en R. Se sugiere seguir estos pasos:
+Es el proceso que sistematiza el trabajo en **`R`**. Se sugiere seguir estos pasos:
 
-- crear un archivo de **proyecto de R Studio**, por el cual se va a crear una carpeta dentro del directorio local
+- crear un archivo de **proyecto de RStudio**, por el cual se va a crear una carpeta dentro del directorio local
 
 - dentro de esa carpeta, crear una sub-carpeta llamada 'datos', donde se guardarán todos los archivos de datos relacionados con el proyecto
 
@@ -137,4 +139,4 @@ Este tipo de archivos permite combinar texto y código, además de visualizacion
 - de qué manera hacer listas
 - de qué forma insertar código
 
-Los estudiantes pueden seguir los pasos en R Cloud
+Los estudiantes pueden seguir los pasos en `R Cloud`.
