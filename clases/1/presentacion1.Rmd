@@ -44,7 +44,7 @@ La evaluación depende de:
 
 Las clases constan de ejercicios prácticos y un seguimiento por parte de los profesores. Se recomienda: 
 
-- abrir `RStudio Cloud` previo al comienzo de la clase  
+- abrir `RStudio Cloud` previo al comienzo de la clase <https://rstudio.cloud/project/2777784>
 - utilizar Zoom en su forma minimizada para ver las diapositivas mientras se utiliza **`R`**  
 - alternativa: dividir la pantalla en dos: a la izquierda **`R`** y a la derecha Zoom  
 - las preguntas se realizan una vez finalizada la introducción con diapositivas 
@@ -75,17 +75,18 @@ Las clases constan de ejercicios prácticos y un seguimiento por parte de los pr
 
 Fechas encuentros sincrónicos:
 
-- Unidad 0 y 1: Jueves 26/8 de 17 a 18:30hs  
+- Unidad 1 y 2: Jueves 26/8 de 17 a 18:30hs  
 
-- Unidad 2 y 3: Martes 31/8 de 17 a 18:30hs  
+- Unidad 3 y 4: Martes 31/8 de 17 a 18:30hs  
 
-- Unidad 4 y 5: Jueves 2/9 de 17 a 18:30hs  
+- Unidad 5 y 6: Jueves 2/9 de 17 a 18:30hs  
 
-- Unidad 6 y 7: Martes 7/9 de 17 a 18:30hs  
+- Unidad 7 y 8: Martes 7/9 de 17 a 18:30hs  
 
-- Unidad 8: Jueves 9/9 17 a 18:30hs   
+- Unidad 9: Jueves 9/9 17 a 18:30hs   
 
-Enlace para clases sincrónicas: a confirmar.  
+Enlace para clases sincrónicas: <https://meet.google.com/yyh-eihi-aqf>.  
+Enlace libro/manual: <https://nsacco.github.io/libroESA/>
 
 
 # Introducción a **`R`**  
