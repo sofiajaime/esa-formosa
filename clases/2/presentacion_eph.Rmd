@@ -1,0 +1,110 @@
+---
+title: "Clase 2: La Encuesta Permanente de Hogares"
+author:
+- Nicolás Sacco
+- José Rodríguez de la Fuente
+- Sofia Jaime
+date: "`r Sys.Date()`"
+output:
+  beamer_presentation:
+    theme: Darmstadt
+    colortheme: seahorse
+    fonttheme: structurebold
+  slidy_presentation: default
+short-title: "Clase 1"
+lang: es
+institute: "Taller de Análisis de la Estructura Social en la Argentina Contemporánea \nMaestría en Generación y Análisis de Información Estadística (UNTREF)" 
+---
+
+# Presentación de la clase
+
+## Contenidos  
+
+En esta clase se realiza un recorrido por los siguientes contenidos:
+
+1. Características principales  
+2. Carga de bases de datos  
+3. Unión de bases 
+4. Selección de población  
+5. Ponderación
+
+
+# EPH: breve resumen
+
+## Características principales (I)  
+
+- Releva indicadores demográficos, económicos y sociales  
+- Se comenzó a aplicar desde 1973  
+  - A partir de 1983 amplió su cobertura por fuera del GBA  
+- A partir de 2003 contamos con la EPH en su modalidad continua  
+- Diseño de tipo panel 
+
+
+## Características principales (II)  
+
+¿Por qué es un buen instrumento para estudiar la estructura de clases?   
+
+- Mide un set de variables socio-laborales amplio  
+- Es un relevamiento continuo y generalizado  
+- Releva otras dimensiones importantes de la desigualdad social  
+
+
+## Aglomerados relevados  
+
+```{r message=FALSE, echo=FALSE, warning=FALSE, results='hide'}
+library(sf)
+library(tidyverse)
+
+entidades <- st_read("cartografia/aglomerados_eph.json")
+argentina <- st_read("cartografia/argentina_n.shp")
+
+argentina <- argentina %>%
+  filter(!link %in% c("94028"))
+
+ggplot() + 
+  geom_sf(data = argentina, aes(fill = provincia), color = NA) +
+  geom_sf(data = entidades)  +
+  ggthemes::theme_map() +
+  guides(fill = "none")
+  
+
+```
+
+
+# Utilizando la EPH 
+
+## Carga de las bases de datos  
+
+- Método tradicional:
+  - Descargas desde INDEC en formato csv, excel, dta, sav y dbf  
+- Método R:  
+  - Utilización del paquete `eph`  
+  
+
+## Unión de bases  
+
+Vamos a utilizar dos tipos de uniones:  
+
+- Armar *pool* de datos uniendo varias ondas de la encuesta  
+  - Lo que se agregan son filas (a lo largo)  
+- Unión de bases de individuos y hogares  
+  - Lo que se unen son columnas (a lo ancho)  
+  
+
+## Filtros y ponderación  
+
+De acuerdo a nuestros objetivos de investigación podemos aplicar una serie de filtros:  
+- Temporales  
+- Espaciales  
+- Etarios  
+- Por condición de actividad 
+
+Cada vez que presentamos resultados con la EPH debemos presentar los datos *ponderados*. Existen 4 tipos de ponderadores:  
+1. **PONDERA**: ponderador poblacional (el clásico)  
+2. **PONDII**: para el tratamiento del ingreso total individual  
+3. **PONDIIO**:  para el ingreso de la ocupación principal  
+4. **PONDIH**: para el ingreso total familiar  
+
+
+
+
