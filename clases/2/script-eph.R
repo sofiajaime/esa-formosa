@@ -5,6 +5,8 @@
 #############################################
 
 # Librerias que vamos a utilizar en la clase ------------------------
+install.packages(c("tidyverse", "eph", "haven", "foreign"))
+
 library(tidyverse)
 library(eph)
 library(haven)
