@@ -1,0 +1,72 @@
+---
+title: "Los censos de población modernos"
+output:
+  revealjs::revealjs_presentation:
+    theme: moon
+    highlight: haddock
+    center: true
+    transition: fade
+    self_contained: false
+    reveal_plugins: ["notes", "search", "chalkboard"]
+    reveal_options:
+      chalkboard:
+        theme: whiteboard
+        toggleNotesButton: false
+---
+
+# Modernos (1960-2010) 
+
+- Instituto Nacional de Estadísticas y Censos (INDEC)
+- Características, posibilidades y limitaciones
+
+## Lecturas
+
+- De Grande, P. (2016): “El formato Redatam.” Estudios demográficos y urbanos, Vol. 31, Núm. 3 (93), pp. 811-832. Link.
+
+- Observatorio Latinoamericano de Censos de Población OLAC[https://observatoriocensal.org/]
+
+# Clases Sociales y Censos de Población
+
+- Gran parte de los estudios sobre estructura social en base a datos censales 
+
+- Variable ocupación o las “características económicas” disponibles en cada censo para construir clases sociales.
+
+- Contexto de producción y oferta estadísticas oficiales
+     - prácticamente la única fuente del Sistema Estadístico Nacional (SEN) que permitía estudiar, de un modo             agregado, la desigualdad social.
+
+# Características Principales
+
+-  1960, 1970, 1980, 1991, 2001  Guisti (2007) y 2010:
+   
+
+## Acceso diferencial
+
+ - sitios web
+ - Paquetes R: - `ipumsr`.
+ - Procesar datos del censo de Argentina con herramientas `tidyverse`.
+ - Generar y analizar datos de la muestra de microdatos de uso público del censo decenal de Argentina (PUMS) del INDEC y / o IPUMS con `ipumsr`.
+
+## Alternativas:
+
+- uso de herramientas de procesamiento en línea;
+- descarga de los microdatos censales disponibles en el sitios web del INDEC;
+- descarga de una muestra de microdatos censales del proyecto IPUMS International (IPUMS-I de la Universidad de Minnesota);
+- solicitud directa de microdatos o tabulados al INDEC y
+- métodos no oficiales.
+
+
+
+# Variables económicas
+
+<small>
+Table: Codificaciones de los datos disponibles respecto a las características económicas de la población por cobertura temática según censos. Argentina, 1980-2010
+
+|     Variable                    |     CEN-80                                                                                                                                 |     CEN-91                                                                                                                                 |     CEN-01                                                                          |     CEN-10                                                                                    |
+|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+|     Condición de   Actividad    |     Actividad ejercida en   la semana anterior a la enumeración                                                                            |     Actividad ejercida en   la semana anterior a la enumeración                                                                            |     Actividad ejercida en   la semana anterior a la enumeración                     |     Actividad ejercida en   la semana anterior a la enumeración                               |
+|     Categoría de   Ocupación    |     Obrero o empleado/   Patrón/Empleado en servicio doméstico/Trabajador por cuenta propia/Trabajador   familiar sin remuneración fija    |     Obrero o empleado/   Patrón/Empleado en servicio doméstico/Trabajador por cuenta propia/Trabajador   familiar sin remuneración fija    |     Obrero o empleado/   Patrón/Trabajador por cuenta propia/Trabajador familiar    |     Obrero o empleado/   Patrón/Trabajador por cuenta propia/Trabajador familiar              |
+|     Rama de Actividad           |     Pregunta abierta                                                                                                                       |     Pregunta abierta                                                                                                                       |     Pregunta abierta                                                                |     Pregunta abierta                                                                          |
+|     Tamaño                      |     Pregunta cerrada con   2 alternativas (hasta 5/ más de 5)                                                                              |     Pregunta cerrada con   2 alternativas (hasta 5/ más de 5)                                                                              |     Pregunta cerrada con   3 alternativas (hasta 5/ entre 6 y 39/ más de 39)        |     Pregunta cerrada con   4 alternativas (hasta 5/ entre 6 a 25/ de 26 a 100/ más de 100)    |
+
+Fuente: elaboración propia en base a censos nacionales de población.
+<small>.
