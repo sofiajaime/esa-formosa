@@ -1,0 +1,51 @@
+---
+title: "Clase 3: Los Nomencladores de clases sociales"
+author:
+- Nicolás Sacco
+- José Rodríguez de la Fuente
+- Sofia Jaime
+date: "`r Sys.Date()`"
+output:
+  beamer_presentation:
+    theme: Darmstadt
+    colortheme: seahorse
+    fonttheme: structurebold
+  slidy_presentation: default
+short-title: "Clase 1"
+lang: es
+institute: "Taller de Análisis de la Estructura Social en la Argentina Contemporánea \nMaestría en Generación y Análisis de Información Estadística (UNTREF)" 
+---
+
+# Presentación de la clase
+
+## Contenidos  
+
+En esta clase se realiza un recorrido por los siguientes contenidos:
+
+1. Operacionalización del concepto de clase social  
+2. Enfoques empíricos de clases sociales  
+3. Operacionalización paso a paso 
+4. Operacionalización automática  
+5. Unidades de análisis
+
+
+# Las clases en la computadora
+
+## Operacionalizando el concepto de clase  
+
+- Operacionalización: pasaje de conceptos teórico-abstractos a indicadores empíricos  
+- Las clases sociales son una parte de la **estructura social**  
+  - El proceso de operacionalización nos permite separarla del resto de las dimensiones  
+
+
+## ¿Clases, grupos o estratos?  
+
+- Ambigüedad de los conceptos  
+- Cada concepto corresponde a una tradición teórica  
+- Criterios para la construcción de clasificaciones:  
+  - *Elección de medidas*: medidas continuas o categóricas  
+  - *Naturaleza de la información*: subjetiva u objetiva  
+  - *Objeto de la medición*: estatus, clases, prestigio, etc.  
+  
+# Enfoques empíricos de clases  
+
