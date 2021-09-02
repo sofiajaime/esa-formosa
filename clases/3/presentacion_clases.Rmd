@@ -11,7 +11,7 @@ output:
     colortheme: seahorse
     fonttheme: structurebold
   slidy_presentation: default
-short-title: "Clase 1"
+short-title: "Clase 3"
 lang: es
 institute: "Taller de Análisis de la Estructura Social en la Argentina Contemporánea \nMaestría en Generación y Análisis de Información Estadística (UNTREF)" 
 ---
@@ -49,3 +49,56 @@ En esta clase se realiza un recorrido por los siguientes contenidos:
   
 # Enfoques empíricos de clases  
 
+## Enfoque EGP  
+
+```{r fig.cap= "Derivación del esquema de clases EGP. Fuente: Erikson y Goldthorpe (1992)", fig.align='center', out.width = '85%', echo=FALSE}
+knitr::include_graphics("imagenes/esquema_egp.png")
+```
+
+
+## Enfoque Wright
+
+```{r fig.cap= "Tipología de las posiciones de clase en la sociedad capitalista. Wright (1994)", fig.align='center', out.width = '85%', echo=FALSE}
+knitr::include_graphics("imagenes/wright1.png")
+```
+
+
+## Enfoques gradacionales - Escala SIOPS 
+
+```{r fig.cap= "Puntajes estandard ordenados de 20 ocupaciones seleccionadas a partir de la escala SIOPS. Treiman(1977)", fig.align='center', out.width = '50%', echo=FALSE}
+knitr::include_graphics("imagenes/treiman.png")
+```
+
+## Enfoques gradacionales - Escala ISEI 
+
+```{r fig.cap= "Puntajes del ISEI de las primeras ocupaciones de la CIUO. Ganzeboom, Treiman y de Graaf (1992)", fig.align='center', out.width = '85%', echo=FALSE}
+knitr::include_graphics("imagenes/isei.png")
+```
+
+
+## Enfoques nacionales - Germani  
+
+```{r fig.cap= "Esquema de clases de Gino Germani (Germani, 1955)", fig.align='center', out.width = '50%', echo=FALSE}
+knitr::include_graphics("imagenes/germani.jpg")
+```
+
+
+## Enfoques nacionales - Torrado 
+
+```{r fig.cap= "Evolución de la estructura de clases. Total país 1947-1991. Torrado (2007)", fig.align='center', out.width = '55%', echo=FALSE}
+knitr::include_graphics("imagenes/torrado4.png")
+```
+
+
+# Unidades de análisis  
+
+## Discusión teórica - metodológica  
+
+- Siempre debe basarse en el marco teórico y los objetivos de la investigación  
+- ¿Población ocupada, PEA o población total?  
+- ¿Individuos u hogares?  
+- Enfoques para el estudio de los hogares  
+  1. Tradicional: jefe/a de hogar  
+  2. Dominancia: el cónyuge de mayor nivel ocupacional define la clase del hogar  
+  3. Clases híbridas: posición de ambos cónyuges  
+  
