@@ -26,7 +26,9 @@ En esta clase se realiza un recorrido por los siguientes contenidos:
 2. Enfoques empíricos de clases sociales  
 3. Operacionalización paso a paso 
 4. Operacionalización automática  
-5. Unidades de análisis
+5. Unidades de análisis  
+6. Operadores relacionales y lógicos  
+
 
 
 # Las clases en la computadora
@@ -101,4 +103,37 @@ knitr::include_graphics("imagenes/torrado4.png")
   1. Tradicional: jefe/a de hogar  
   2. Dominancia: el cónyuge de mayor nivel ocupacional define la clase del hogar  
   3. Clases híbridas: posición de ambos cónyuges  
-  
+
+
+# Operadores  
+
+## Operadores relacionales  
+
+- Permiten relacionar a los valores asumidos en un variable con un valor de referencia  
+- Siempre que estén bien formulados devuelven un resultado lógico (verdadero o falso)  
+- No pueden utilizarse con variables de tipo *cadena*  
+- Tipos de operadores relacionales:
+
+| Operador | Comparación           | Ejemplo | Resultado |
+|----------|-----------------------|---------|-----------|
+| <        | Menor que             | 4 < 1   | FALSO     |
+| <=       | Menor o igual que     | 4 <= 1  | FALSO     |
+| >        | Mayor que             | 8 > 6   | VERDADERO |
+| >=       | Mayor o igual que     | 8 >= 6  | VERDADERO |
+| ==       | Exactamente igual que | 7 == 9  | FALSO     |
+| !=       | No es igual que       | 5 != 2  | VERDADERO |
+
+
+## Operadores lógicos  
+
+- También llamados operadores *booleanos*  
+- Permiten vincular proposiciones construidas a partir de operadores relacionales  
+- Nos van a permiter crear relaciones complejas  
+- Tipos de operadores lógicos:  
+
+| Operador  | Comparación                  | Ejemplo | Resultado |
+|-----------|------------------------------|---------|-----------|
+| x \| y     | x Ó y es verdadero          | V \| F  | VERDADERO |
+| x & y     | x Y y son verdaderos         | V & F   | FALSO     |
+| !x        | x no es verdadero (negación) | !v      | FALSO     |
+
