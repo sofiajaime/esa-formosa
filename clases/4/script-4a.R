@@ -223,7 +223,12 @@ eph_ind_215 <- eph_ind_215 %>%
 eph_ind_215$clase3_factor <- factor(eph_ind_215$clase3, labels = c("Clase alta",
                                                                    "Clase media", "Clase obrera"))
 
-# Visualizamos los datos por clase social  ------------------
+# Exploramos los datos por clase social  ------------------
 
 freq(eph_ind_215$clase6_factor, weights = eph_ind_215$PONDERA,
-                   cumul = FALSE, report.nas = FALSE)
+                   cumul = FALSE, report.nas = FALSE) # Frecuencias relativas de la variable clase
+
+
+eph_ind_215 %>%
+  group_by(clase6_factor) %>%
+  summarise(promedio = weighted.mean(P47T, w = PONDERA)) # Ingresos totales individuales por clase social
