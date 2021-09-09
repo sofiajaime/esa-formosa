@@ -1,0 +1,34 @@
+---
+title: "Clase 5: Escalas, mapas y condiciones de vida"
+author:
+- Nicolás Sacco
+- José Rodríguez de la Fuente
+- Sofia Jaime
+date: "`r Sys.Date()`"
+output:
+  beamer_presentation:
+    theme: Darmstadt
+    colortheme: seahorse
+    fonttheme: structurebold
+  slidy_presentation: default
+short-title: "Clase 5"
+lang: es
+institute: "Taller de Análisis de la Estructura Social en la Argentina Contemporánea \nMaestría en Generación y Análisis de Información Estadística (UNTREF)" 
+---
+
+# Presentación de la clase
+
+## Contenidos 
+
+En esta clase se realiza un recorrido por los siguientes contenidos:
+
+1. Formas de medir la estratificación: las escalas
+2. Condiciones de vida y su aplicación
+3. Mapeo de clases sociales y su aplicación
+4. Debate sobre el curso: presentación de ideas de lxs estudiantes
+
+## Escalas
+
+```{r fig.cap= "Cuadro comparativo de diferentes escalas", fig.align='center', out.width = '85%', echo=FALSE}
+knitr::include_graphics("escalas.png")
+```

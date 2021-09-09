@@ -1,9 +1,10 @@
 #############################################
 # Curso ESA
-# Script clase 4a: Nomencladores de clases sociales
+# Script clase 4: Nomencladores de clases sociales
 # Septiembre 2021
 #############################################
 
+# Antes de comenzar: cargar base de datos de clase 3
 
 # Paquetes que vamos a utilizar en la clase --------------------------
 install.packages(c("tidyverse", "car", "summarytools")) # Descargar paquetes

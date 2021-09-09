@@ -1,9 +1,10 @@
 #############################################
 # Curso ESA
-# Script clase 4b: Operacionalización automática
+# Script clase 5: Operacionalización automática
 # Septiembre 2021
 #############################################
 
+# Antes de comenzar: cargar base de datos de clase 3
 
 # Paquetes que vamos a utilizar en la clase --------------------------
 install.packages(c("tidyverse", "scales")) # Descargar paquetes
