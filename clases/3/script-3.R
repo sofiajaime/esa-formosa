@@ -13,7 +13,11 @@ library(eph)
 library(foreign)
 
 # BASE 1: Descargamos la base individual:
-eph_ind_215 <- get_microdata(year = 2015, trimester = 2, type = "individual")
+eph_ind_215 <- eph::get_microdata(year = 2015, trimester = 2, type = "individual")
+
+head(eph_ind_215)
+
+glimpse(eph_ind_215)
 
 # Descargamos CIUO:
 # https://www.indec.gob.ar/indec/web/Institucional-Indec-BasesDeDatos
